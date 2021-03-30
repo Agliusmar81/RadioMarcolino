@@ -1,0 +1,75 @@
+/**********GENERAL**********/
+
+body{
+	font-family:	arial, sans-serif, courier, verdana;
+}
+
+a { 
+	color: blue; 
+	text-decoration: none;
+}
+
+/**********HEADING**********/
+
+#header {
+background-color: blue;
+text-align: center;
+}
+
+h1 {
+	font-size: 35px;
+	padding: 15px 0 0 0 ;
+	margin: 0;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 1px black;
+}
+
+h1 a {
+	color: orange;
+}
+
+h2{
+	
+	color: orange;
+	margin: 0;
+	text-shadow: 2px 2px 1px black;
+}
+
+#nav {
+	list-style-type: none;
+	background-color: #210ac9;
+}
+
+#nav li {
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+
+
+}
+	
+#nav li a {
+	color: #92ff14;
+}
+
+#nav li:hover{
+	background-color: green; 
+}
+
+/********CONTENT**********/
+
+h3 {
+	color: #8f0000;
+}
+
+#content {
+	width: 900px;
+	margin: 30px auto;
+	text-align: center;
+}
+#content h4 {
+	border-bottom: blue solid 2px;
+}
+
+#content img {
+	width: 600px;
+}
